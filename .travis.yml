@@ -1,8 +1,9 @@
 lang: r
 before_install:
-    - sudo apt-get install pandoc
+    - sudo apt-get install pandoc texlive texlive-latex-base
 script:
     - pandoc --template template.html -o dist/index.html bylaws.md
+    - pandoc -t latex -o dist/bylaws.pdf bylaws.md
 deploy:
     local-dir: dist/
     provider: pages
