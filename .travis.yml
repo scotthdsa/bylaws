@@ -1,0 +1,7 @@
+lang: r
+before_install:
+    - sudo apt-get install pandoc
+script:
+    - pandoc --template template.html -o index.html bylaws.md
+after_success:
+    - ./update_html.sh
