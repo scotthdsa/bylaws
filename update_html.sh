@@ -7,5 +7,5 @@ git checkout -b gh-pages
 git add index.html
 git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 
-git remote add origin-pages https://github.com/scotthdsa/bylaws.git
+git remote add origin-pages https://${GH_TOKEN}@github.com/scotthdsa/bylaws.git
 git push --quiet --set-upstream origin-pages gh-pages
