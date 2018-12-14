@@ -2,6 +2,13 @@ lang: r
 before_install:
     - sudo apt-get install pandoc
 script:
-    - pandoc --template template.html -o index.html bylaws.md
-after_success:
-    - ./update_html.sh
+    - mkdir output/
+    - pandoc --template template.html -o output/index.html bylaws.md
+deploy:
+    local-dir: output/
+    provider: pages
+    skip-cleanup: true
+    github-token: $GH_TOKEN
+    keep-history: true
+    on:
+        branch: master
