@@ -1,37 +1,37 @@
 @font-face{
 	font-family: 'ManifoldDSA';
-	src: url('./fonts/ManifoldDSA-Regular.eot');
-	src: url('./fonts/ManifoldDSA-Regular.woff2') format('woff2'),
-       url('./fonts/ManifoldDSA-Regular.woff') format('woff'),
-	     url('./fonts/ManifoldDSA-Regular.ttf') format('truetype');
+	src: url('../fonts/ManifoldDSA-Regular.eot');
+	src: url('../fonts/ManifoldDSA-Regular.woff2') format('woff2'),
+       url('../fonts/ManifoldDSA-Regular.woff') format('woff'),
+	     url('../fonts/ManifoldDSA-Regular.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'ManifoldDSA';
   font-style: italic;
-	src: url('./fonts/ManifoldDSA-RegularItalic.eot');
-	src: url('./fonts/ManifoldDSA-RegularItalic.woff2') format('woff2'),
-       url('./fonts/ManifoldDSA-RegularItalic.woff') format('woff'),
-	     url('./fonts/ManifoldDSA-RegularItalic.ttf') format('truetype');
+	src: url('../fonts/ManifoldDSA-RegularItalic.eot');
+	src: url('../fonts/ManifoldDSA-RegularItalic.woff2') format('woff2'),
+       url('../fonts/ManifoldDSA-RegularItalic.woff') format('woff'),
+	     url('../fonts/ManifoldDSA-RegularItalic.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'ManifoldDSA';
   font-weight: bold;
-	src: url('./fonts/ManifoldDSA-Heavy.eot');
-	src: url('./fonts/ManifoldDSA-Heavy.woff2') format('woff2'),
-       url('./fonts/ManifoldDSA-Heavy.woff') format('woff'),
-	     url('./fonts/ManifoldDSA-Heavy.ttf') format('truetype');
+	src: url('../fonts/ManifoldDSA-Heavy.eot');
+	src: url('../fonts/ManifoldDSA-Heavy.woff2') format('woff2'),
+       url('../fonts/ManifoldDSA-Heavy.woff') format('woff'),
+	     url('../fonts/ManifoldDSA-Heavy.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'ManifoldDSA';
   font-weight: bold;
   font-style: italic;
-	src: url('./fonts/ManifoldDSA-HeavyItalic.eot');
-	src: url('./fonts/ManifoldDSA-HeavyItalic.woff2') format('woff2'),
-       url('./fonts/ManifoldDSA-HeavyItalic.woff') format('woff'),
-	     url('./fonts/ManifoldDSA-HeavyItalic.ttf') format('truetype');
+	src: url('../fonts/ManifoldDSA-HeavyItalic.eot');
+	src: url('../fonts/ManifoldDSA-HeavyItalic.woff2') format('woff2'),
+       url('../fonts/ManifoldDSA-HeavyItalic.woff') format('woff'),
+	     url('../fonts/ManifoldDSA-HeavyItalic.ttf') format('truetype');
 }
 
 body {
